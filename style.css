@@ -204,7 +204,6 @@
 .buttons{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
     row-gap: 500px;
 }
 }
