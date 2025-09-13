@@ -103,7 +103,7 @@
     display: flex;
     justify-content: center;
     height: 100vh;
-    margin-top: 30px;
+    margin-top: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,12 +123,14 @@
     margin-left: 75vh;
     margin-top: 10vh;
     border-radius: 20px;
+
 }
 .container2{
     display: inline-flex;
     overflow: scroll;
-    gap: 20px;
-    padding-left: 10px;
+    gap: 10px;
+    /* padding-left: 10px; */
+    margin-left: 20px;
     text-align: center;
     /* justify-content: center; */
 }
@@ -138,8 +140,9 @@
 .story{
     height: 200px;
     width: 200px;
-    border: 2px solid var(--primaryColor) ;
+    /* border: 2px solid var(--primaryColor) ; */
     border-radius: 50%;
+    border: none;
 }
 .stories{
     height: 200px;
@@ -158,17 +161,18 @@
         display: block;
     }
     .stories{
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     text-align: center;
 }
 .story{
-    height: 90px;
-    width:90px;
-    border: 2px solid var(--primaryColor);
+    height: 60px;
+    width:60px;
+    /* border: 2px solid var(--primaryColor); */
     border-radius: 50%;
     text-align: center;
+    border: none;
 
 
 }
@@ -180,7 +184,7 @@
 .container2{
     display: inline-flex;
     overflow: scroll;
-    gap: 10px;
+    gap: 5px;
     padding-left: 5px;
 }
 .active{
